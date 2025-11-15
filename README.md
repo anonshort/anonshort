@@ -7,7 +7,7 @@
 
   <!-- Optional: project banner -->
   <a href="https://anonshort.com">
-    <img src="assets/banner.png" alt="AnonShort banner" width="960">
+    <img src="https://anonshort.com/assets/img/logo.png" alt="AnonShort banner" width="250">
   </a>
 
   <h1>AnonShort</h1>
