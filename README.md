@@ -36,7 +36,6 @@
 - [API & Developer Documentation](#api--developer-documentation)
 - [Privacy & Security](#privacy--security)
 - [Preview](#preview)
-- [How It Works](#how-it-works)
 - [FAQ](#faq)
 - [Contact & Links](#contact--links)
 - [Credits](#credits)
@@ -199,32 +198,6 @@ else:
 </p>
 
 ---
-
-## How It Works
-
-```mermaid
-sequenceDiagram
-  autonumber
-  participant U as User
-  participant AS as AnonShort
-  participant D as Destination Website
-
-  U->>AS: Access short link (anonshort.com/abcd)
-  AS->>AS: Validate link:
-      - Check password (if enabled)
-      - Check expiry time
-      - Check max-clicks / self-destruct
-      - Check one-time access
-  alt Validation failed
-    AS-->>U: Error page (expired / invalid / protected)
-  else Validation success
-    AS-->>U: 302 Redirect (Referrer-Policy: no-referrer)
-    U->>D: Load destination URL
-    D-->>U: Return final content
-    AS->>AS: Update private stats (if enabled)
-  end
-
-```
 
 ---
 
