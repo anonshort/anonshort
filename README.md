@@ -3,7 +3,7 @@
 
   <!-- Optional: project banner -->
   <a href="https://anonshort.com">
-    <img src="https://anonshort.com/assets/img/banner.png" alt="AnonShort banner — privacy-focused URL shortener" width="770">
+    <img src="https://anonshort.com/assets/img/banner1.png" alt="AnonShort banner — privacy-focused URL shortener" width="770">
   </a>
 
   <h1>AnonShort - Anonymous URL Shortener</h1>
