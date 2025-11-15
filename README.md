@@ -41,14 +41,6 @@ Visit the official documentation:
 - 📧 Email: anonshort@protonmail.com  
 
 ---
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anonshort&show_icons=true&theme=dark" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anonshort&layout=compact&theme=dark" />
-</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Privacy-First-blue" />
   <img src="https://img.shields.io/badge/Secure-HTTPS-green" />
