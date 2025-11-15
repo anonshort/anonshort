@@ -1,10 +1,7 @@
 
 <div align="center">
-
-  <!-- Optional: project banner -->
   <a href="https://anonshort.com">
-    <img src="https://anonshort.com/assets/img/banner2.png" alt="AnonShort banner — privacy-focused URL shortener" width="100%">
-    <img src="https://anonshort.com/assets/img/banner1.png" alt="AnonShort banner — privacy-focused URL shortener" width="100%">
+    <img src="https://anonshort.com/assets/img/banner4.png" alt="AnonShort banner — privacy-focused URL shortener" width="100%">
     <img src="https://anonshort.com/assets/img/banner3.png" alt="AnonShort banner — privacy-focused URL shortener" width="100%">
   </a>
 
