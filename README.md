@@ -6,8 +6,8 @@
     <img src="https://anonshort.com/assets/img/logo.png" alt="AnonShort banner — privacy-focused URL shortener" width="270">
   </a>
 
-  <h1>AnonShort — Privacy-Focused URL Shortener</h1>
-  <p><strong>Anonymous • Secure • Fast — The Private Link Shortener for clean, trackless redirects</strong></p>
+  <h1>AnonShort - Anonymous URL Shortener</h1>
+  <p><strong>Anonymous • Secure • Fast - The Private Link Shortener for clean, trackless redirects</strong></p>
 
   <p>
     <a href="https://anonshort.com"><strong>Website</strong></a> ·
@@ -206,14 +206,24 @@ else:
 sequenceDiagram
   autonumber
   participant U as User
-  participant A as AnonShort
-  participant D as Destination
+  participant AS as AnonShort
+  participant D as Destination Website
 
-  U->>A: Open short link (e.g., anonshort.com/xYz)
-  A->>A: Validate (password / expiry / max-clicks)
-  A-->>U: 302 Redirect (Referrer-Policy: no-referrer)
-  U->>D: Request final page
-  D-->>U: Serve content
+  U->>AS: Access short link (anonshort.com/abcd)
+  AS->>AS: Validate link:
+      - Check password (if enabled)
+      - Check expiry time
+      - Check max-clicks / self-destruct
+      - Check one-time access
+  alt Validation failed
+    AS-->>U: Error page (expired / invalid / protected)
+  else Validation success
+    AS-->>U: 302 Redirect (Referrer-Policy: no-referrer)
+    U->>D: Load destination URL
+    D-->>U: Return final content
+    AS->>AS: Update private stats (if enabled)
+  end
+
 ```
 
 ---
@@ -246,4 +256,4 @@ Yes. A QR endpoint/field is provided per short link (see docs).
 ---
 
 ## License
-© 2025 AnonShort — A privacy‑first URL shortener.
+© 2025 AnonShort - A privacy‑first URL shortener.
