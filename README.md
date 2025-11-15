@@ -3,7 +3,7 @@
 
   <!-- Optional: project banner -->
   <a href="https://anonshort.com">
-    <img src="https://anonshort.com/assets/img/logo.png" alt="AnonShort banner — privacy-focused URL shortener" width="960">
+    <img src="https://anonshort.com/assets/img/logo.png" alt="AnonShort banner — privacy-focused URL shortener" width="270">
   </a>
 
   <h1>AnonShort — Privacy-Focused URL Shortener</h1>
@@ -242,13 +242,6 @@ Yes. A QR endpoint/field is provided per short link (see docs).
 - 🤖 Telegram Bot: **https://t.me/AnonShortBot**  
 - 📣 Channel: **https://t.me/+E2QR7t6ahJUyMzVl**  
 - ✉️ Email: **anonshort@protonmail.com**
-
----
-
-## Credits
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20Source-Love-e11d48?style=flat-square" alt="Open Source Love" />
-</p>
 
 ---
 
