@@ -4,7 +4,7 @@
 <p align="center">
   <a href="https://anonshort.com">Website</a> •
   <a href="https://t.me/AnonShortBot">Telegram Bot</a> •
-  <a href="https://anonshort.com/api">Public API</a>
+  <a href="https://t.me/+E2QR7t6ahJUyMzVl">Telegram Channel</a>
 </p>
 
 ---
@@ -27,15 +27,6 @@ No logs, no tracking, no cookies — just fast, secure redirects.
 
 ---
 
-## 🧰 Tech Stack
-- **Frontend:** HTML, CSS, Tailwind, JavaScript  
-- **Backend:** PHP  
-- **Security:** Input validation, XSS filters, rate limiting  
-- **API:** JSON-based Public API  
-- **Tools:** Cloudflare, cPanel Deployment  
-
----
-
 ## 📦 API & Documentation
 Visit the official documentation:
 
@@ -45,9 +36,27 @@ Visit the official documentation:
 
 ## 📫 Contact & Links
 - 🌐 Website: https://anonshort.com  
-- 🤖 Telegram Bot: https://t.me/AnonShortBot  
+- 🤖 Telegram Bot: https://t.me/AnonShortBot
+- 👥 Channel : https://t.me/+E2QR7t6ahJUyMzVl
 - 📧 Email: anonshort@protonmail.com  
 
 ---
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=anonshort&show_icons=true&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anonshort&layout=compact&theme=dark" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Privacy-First-blue" />
+  <img src="https://img.shields.io/badge/Secure-HTTPS-green" />
+  <img src="https://img.shields.io/badge/API-Available-orange" />
+  <img src="https://img.shields.io/badge/Open%20Source-Love-red" />
+</p>
+<p align="center">
+  <img src="https://anonshort.com/assets/img/logo.png" width="300" />
+</p>
 
 <p align="center">© 2025 — AnonShort. Protecting your privacy.</p>
