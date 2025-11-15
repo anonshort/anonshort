@@ -47,8 +47,5 @@ Visit the official documentation:
   <img src="https://img.shields.io/badge/API-Available-orange" />
   <img src="https://img.shields.io/badge/Open%20Source-Love-red" />
 </p>
-<p align="center">
-  <img src="https://anonshort.com/assets/img/logo.png" width="300" />
-</p>
 
-<p align="center">© 2025 — AnonShort. Protecting your privacy.</p>
+<p align="center">© 2025 AnonShort. Protecting your privacy.</p>
