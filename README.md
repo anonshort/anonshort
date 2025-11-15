@@ -107,7 +107,7 @@ See the full reference at **https://anonshort.com/api**.
 Full documentation lives here: **https://anonshort.com/api**
 
 ### Example: Create a short link
-> Endpoint names and fields below are representative—use the official docs if they differ.
+> Endpoint names and fields below are representative use the official docs if they differ.
 
 **cURL**
 ```bash
