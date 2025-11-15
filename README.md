@@ -1,20 +1,13 @@
-<!--
-  AnonShort — README
-  Notes:
-  - Replace /assets/banner.png and /assets/preview.gif with your actual images (or remove those blocks).
-  - Keep links up to date in the header.
-  - This README focuses on clarity and developer experience without SEO keyword stuffing.
--->
 
 <div align="center">
 
   <!-- Optional: project banner -->
   <a href="https://anonshort.com">
-    <img src="assets/banner.png" alt="AnonShort banner" width="960">
+    <img src="https://anonshort.com/assets/img/logo.png" alt="AnonShort banner — privacy-focused URL shortener" width="960">
   </a>
 
-  <h1>AnonShort</h1>
-  <p><strong>Anonymous • Secure • Fast</strong></p>
+  <h1>AnonShort — Privacy-Focused URL Shortener</h1>
+  <p><strong>Anonymous • Secure • Fast — The Private Link Shortener for clean, trackless redirects</strong></p>
 
   <p>
     <a href="https://anonshort.com"><strong>Website</strong></a> ·
@@ -24,10 +17,10 @@
   </p>
 
   <p>
-    <img alt="Privacy First" src="https://img.shields.io/badge/Privacy-First-0ea5e9?style=for-the-badge" />
-    <img alt="Secure HTTPS" src="https://img.shields.io/badge/Secure-HTTPS-22c55e?style=for-the-badge" />
-    <img alt="Public API" src="https://img.shields.io/badge/Public%20API-Available-f59e0b?style=for-the-badge" />
-    <img alt="Ad Free UI" src="https://img.shields.io/badge/Ad--Free-Interface-64748b?style=for-the-badge" />
+    <img alt="AnonShort Privacy First" src="https://img.shields.io/badge/Privacy-First-0ea5e9?style=for-the-badge" />
+    <img alt="Secure HTTPS Redirects" src="https://img.shields.io/badge/Secure-HTTPS-22c55e?style=for-the-badge" />
+    <img alt="Public API for Developers" src="https://img.shields.io/badge/Public%20API-Available-f59e0b?style=for-the-badge" />
+    <img alt="Ad-Free Interface" src="https://img.shields.io/badge/Ad--Free-Clean%20UI-64748b?style=for-the-badge" />
   </p>
 
 </div>
@@ -35,184 +28,174 @@
 ---
 
 ## Table of Contents
-- [Overview](#overview)
+- [What is AnonShort?](#what-is-anonshort)
+- [Highlights](#highlights)
 - [Features](#features)
-- [Live Services](#live-services)
+- [Use Cases](#use-cases)
 - [Quick Start](#quick-start)
-- [API Quick Reference](#api-quick-reference)
-  - [Create Short Link](#create-short-link)
-  - [Optional Controls](#optional-controls)
-  - [Response Example](#response-example)
-  - [Client Examples](#client-examples)
+- [API & Developer Documentation](#api--developer-documentation)
 - [Privacy & Security](#privacy--security)
 - [Preview](#preview)
 - [How It Works](#how-it-works)
 - [FAQ](#faq)
-- [Contact](#contact)
+- [Contact & Links](#contact--links)
+- [Credits](#credits)
 - [License](#license)
 
 ---
 
-## Overview
+## What is AnonShort?
+**AnonShort** is a **privacy‑focused URL shortener** that delivers **anonymous, secure, and fast redirects** with a clean UI.  
+No logs. No tracking. No cookies. No ads. Just straightforward link management that protects your privacy.
 
-**AnonShort** is a privacy-focused URL shortener for people who want anonymous, secure, and fast link sharing.  
-No logs. No tracking. No ads. Just clean redirects and a simple interface.
+> Ideal for privacy advocates, developers, security researchers, journalists, and anyone who needs **trackless redirect** and **private link sharing**.
+
+---
+
+## Highlights
+- 🔒 **Privacy-first:** no tracking, no ads, and optional no‑referrer redirects.  
+- ⚡ **Fast and reliable:** lightweight service optimized for low latency.  
+- 🧰 **Developer-friendly:** generous **Public API** with QR support.  
+- 🎯 **Zero-nonsense:** clean, accessible, and responsive interface.
 
 ---
 
 ## Features
-
-- Custom short paths  
-- Password-protected links  
-- Time-based expiry  
-- One-time access links  
-- Self-destruct links (max-clicks)  
+- Custom short paths / slugs  
+- Password‑protected links  
+- Time‑based expiry (TTL)  
+- One‑time access links  
+- Self‑destruct links (max‑clicks)  
 - Private stats page  
-- Anonymous (no-referrer) redirects  
-- Built-in QR Code generator  
-- Unlimited public API  
-- Clean, fast, ad‑free interface
+- Anonymous redirect (no‑referrer)  
+- Built‑in QR code generator  
+- Public API for automation  
+- Lightweight, ad‑free interface
+
+> Tip: Pin important links and share the QR directly from the stats page.
 
 ---
 
-## Live Services
-
-- 🌐 **Website:** https://anonshort.com  
-- 📚 **API Docs:** https://anonshort.com/api  
-- 🤖 **Telegram Bot:** https://t.me/AnonShortBot  
-- 📣 **Telegram Channel:** https://t.me/+E2QR7t6ahJUyMzVl
+## Use Cases
+- Share sensitive links without exposing the original source (no‑referrer).  
+- Distribute single‑use URLs (one‑time access) for gated content.  
+- Time‑bound sharing with **expiry** for temporary access.  
+- Programmatic link creation and QR generation via the **Public API**.  
+- Minimal‑footprint links for documentation, chats, and social posts.
 
 ---
 
 ## Quick Start
 
-### Use the Website
-1. Go to **https://anonshort.com**
-2. Paste your long URL
-3. (Optional) Set a password, custom path, expiry, max-clicks, or no-referrer
+### 1) Website
+1. Visit **https://anonshort.com**  
+2. Paste your long URL  
+3. *(Optional)* set password, custom path, expiry, max‑clicks, or no‑referrer  
 4. Create and share your short link
 
-### Use the Telegram Bot
-- Chat with **[@AnonShortBot](https://t.me/AnonShortBot)**  
-- Send a URL (and optional parameters); the bot returns the short link and QR
+### 2) Telegram Bot
+Chat with **[@AnonShortBot](https://t.me/AnonShortBot)** and send your long URL.  
+The bot responds with a short link (and a QR code when applicable).
+
+### 3) API
+Automate link creation with the **Public API**.  
+See the full reference at **https://anonshort.com/api**.
 
 ---
 
-## API Quick Reference
+## API & Developer Documentation
 
-> For the complete specification and any updates, see **https://anonshort.com/api**.  
-> Endpoint names and parameters below are representative; adjust if your API differs.
+Full documentation lives here: **https://anonshort.com/api**
 
-### Create Short Link
-
-`POST https://anonshort.com/api/shorten`
-
-**Request body (JSON)**
-```json
-{
-  "url": "https://example.com",
-  "custom": "my-link",
-  "password": "optional",
-  "expire_in": "1d",
-  "max_clicks": 1,
-  "no_referrer": true
-}
-```
+### Example: Create a short link
+> Endpoint names and fields below are representative—use the official docs if they differ.
 
 **cURL**
 ```bash
-curl -X POST https://anonshort.com/api/shorten   -H "Content-Type: application/json"   -d '{
-    "url": "https://example.com",
-    "custom": "my-link",
-    "password": "optional",
-    "expire_in": "1d",
-    "max_clicks": 1,
-    "no_referrer": true
+curl -X POST -d "url=https://www.example.com" -d "custom_path=mycustompath" https://anonshort.com/api/
   }'
 ```
 
-### Optional Controls
-- **custom**: custom slug/path for the short URL  
-- **password**: require a password before redirect  
-- **expire_in**: time-to-live (e.g., `10m`, `1h`, `1d`, `7d`)  
-- **max_clicks**: destroy the link after N visits  
-- **no_referrer**: remove referrer when redirecting
-
-### Response Example
-```json
-{
-  "ok": true,
-  "short_url": "https://anonshort.com/my-link",
-  "id": "my-link",
-  "qr_url": "https://anonshort.com/api/qr/my-link",
-  "expires_at": "2025-12-31T23:59:59Z",
-  "max_clicks": 1
-}
+**Get URL Statistics**
+```bash
+curl -X POST https://anonshort.com/api/?stats={stats_token}
 ```
+**Node JS (request)**
+```node
+const axios = require('axios');
 
-### Client Examples
+const url = 'https://anonshort.com/api/';
+const data = {
+    url: 'https://www.example.com',
+    custom_path: 'mycustompath'
+};
 
-**JavaScript (fetch)**
-```js
-async function shorten(url) {
-  const res = await fetch('https://anonshort.com/api/shorten', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      url,
-      custom: 'my-link',
-      password: 'optional',
-      expire_in: '1d',
-      max_clicks: 1,
-      no_referrer: true
+axios.post(url, new URLSearchParams(data))
+    .then(response => {
+        console.log('Shortened URL:', response.data.short_url);
+        console.log('Stats URL:', response.data.stats_url);
     })
-  });
-
-  if (!res.ok) throw new Error(\`HTTP \${res.status}\`);
-  return res.json();
-}
-
-shorten('https://example.com').then(console.log).catch(console.error);
+    .catch(error => {
+        console.error('Error:', error.response ? error.response.data : error.message);
+    });
 ```
 
 **Python (requests)**
 ```python
 import requests
 
-payload = {
-    "url": "https://example.com",
-    "custom": "my-link",
-    "password": "optional",
-    "expire_in": "1d",
-    "max_clicks": 1,
-    "no_referrer": True
+url = "https://anonshort.com/api/"
+data = {
+    'url': 'https://www.example.com',
+    'custom_path': 'mycustompath'
 }
 
-r = requests.post("https://anonshort.com/api/shorten", json=payload, timeout=30)
-r.raise_for_status()
-print(r.json())
+response = requests.post(url, data=data)
+
+if response.status_code == 200:
+    print("Shortened URL:", response.json().get('short_url'))
+    print("Stats URL:", response.json().get('stats_url'))
+else:
+    print("Error:", response.status_code, response.json())
+```
+
+**Response**
+```json
+{
+    "short_url": "https://anonshort.com/shortened-path",
+    "stats_url": "https://anonshort.com/index.php?stats=stats-token"
+}
+```
+
+**Response Stats**
+```json
+{
+    "url": "https://www.example.com",
+    "clicks": 0,
+    "created_at": "2024-09-03 06:42:09"
+}
 ```
 
 ---
 
 ## Privacy & Security
-
 - **No logs:** identifying access logs are not retained.  
-- **No tracking:** no ads or third‑party trackers.  
-- **No cookies:** public pages do not use tracking cookies.  
-- **No‑referrer:** hide the referrer on redirects when enabled.  
-- **HTTPS‑only:** encrypted in transit.
+- **No tracking:** no third‑party trackers or ad scripts.  
+- **No cookies:** public pages avoid tracking cookies.  
+- **No‑referrer:** hide referrer when redirecting to the destination.  
+- **TLS/HTTPS only:** all traffic is encrypted in transit.  
+- **Per‑link controls:** password protection, expiry, and max‑clicks.
 
-> **Tip:** Do not share the password in the same place where you share the short link.
+> Avoid sharing passwords in the same place you share the short link.
 
 ---
 
 ## Preview
 
-> Replace the placeholder image with an actual screenshot or GIF.
+> Replace the placeholder image with your screenshot or GIF.
 
 <p align="center">
-  <img src="assets/preview.gif" alt="AnonShort interface preview" width="860">
+  <img src="assets/preview.gif" alt="AnonShort URL shortener interface preview and privacy features" width="860">
 </p>
 
 ---
@@ -228,7 +211,7 @@ sequenceDiagram
 
   U->>A: Open short link (e.g., anonshort.com/xYz)
   A->>A: Validate (password / expiry / max-clicks)
-  A-->>U: Redirect (no-referrer)
+  A-->>U: 302 Redirect (Referrer-Policy: no-referrer)
   U->>D: Request final page
   D-->>U: Serve content
 ```
@@ -237,27 +220,32 @@ sequenceDiagram
 
 ## FAQ
 
-**Is the stats page public?**  
-No. Stats are private.
+**Is AnonShort a secure URL shortener?**  
+Yes. HTTPS is enforced, and links can be password‑protected, time‑bound, or limited by click count.
 
-**What happens after max-clicks is reached?**  
-The link self-destructs and no longer redirects.
+**Does AnonShort track me?**  
+No. There are no tracking cookies or third‑party analytics on public pages.
 
-**Can I use custom slugs?**  
-Yes — set the `custom` field when creating the link.
+**Are stats public or private?**  
+Stats are private by default.
 
-**Do you support QR codes?**  
-Yes — a QR is generated for each short link.
+**Can I create custom slugs?**  
+Yes, if available. Use the `custom` field when creating the link.
+
+**Is there an API for QR codes?**  
+Yes. A QR endpoint/field is provided per short link (see docs).
 
 ---
 
-## Contact
+## Contact & Links
+- 🌐 Website: **https://anonshort.com**  
+- 🤖 Telegram Bot: **https://t.me/AnonShortBot**  
+- 📣 Channel: **https://t.me/+E2QR7t6ahJUyMzVl**  
+- ✉️ Email: **anonshort@protonmail.com**
 
-- Website: **https://anonshort.com**  
-- Telegram Bot: **https://t.me/AnonShortBot**  
-- Telegram Channel: **https://t.me/+E2QR7t6ahJUyMzVl**  
-- Email: **anonshort@protonmail.com**
+---
 
+## Credits
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20Source-Love-e11d48?style=flat-square" alt="Open Source Love" />
 </p>
@@ -265,5 +253,4 @@ Yes — a QR is generated for each short link.
 ---
 
 ## License
-
-© 2025 AnonShort — Protecting your privacy.
+© 2025 AnonShort — A privacy‑first URL shortener.
