@@ -106,13 +106,4 @@ All endpoints and parameters live here:
 
 ```bash
 # Example (adjust to the actual API schema — see docs above)
-curl -X POST https://anonshort.com/api/shorten \
-  -H "Content-Type: application/json" \
-  -d '{
-    "url": "https://example.com",
-    "custom": "my-link",
-    "password": "optional",
-    "expire_in": "1d",
-    "max_clicks": 1,
-    "no_referrer": true
-  }'
+curl -X POST -d "url=https://www.example.com" -d "custom_path=mycustompath" https://anonshort.com/api/
