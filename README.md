@@ -2,7 +2,6 @@
 <div align="center">
   <a href="https://anonshort.com">
     <img src="https://anonshort.com/assets/img/banner4.png" alt="AnonShort banner — privacy-focused URL shortener" width="100%">
-    <img src="https://anonshort.com/assets/img/banner3.png" alt="AnonShort banner — privacy-focused URL shortener" width="100%">
   </a>
 
   <h1>AnonShort - Anonymous URL Shortener</h1>
