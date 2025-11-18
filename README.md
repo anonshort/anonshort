@@ -182,18 +182,8 @@ else:
 - **No‑referrer:** hide referrer when redirecting to the destination.  
 - **TLS/HTTPS only:** all traffic is encrypted in transit.  
 - **Per‑link controls:** password protection, expiry, and max‑clicks.
-
 > Avoid sharing passwords in the same place you share the short link.
 
----
-
-## Preview
-
-> Replace the placeholder image with your screenshot or GIF.
-
-<p align="center">
-  <img src="assets/preview.gif" alt="AnonShort URL shortener interface preview and privacy features" width="860">
-</p>
 
 ---
 
