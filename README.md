@@ -1,4 +1,4 @@
-
+<meta name="google-site-verification" content="16FEND9alDtVLGHgAa5rbmfQH7Uv-rEuvQng8tZFvmw" />
 <div align="center">
   <a href="https://anonshort.com">
     <img src="https://anonshort.com/assets/img/banner4.png" alt="AnonShort banner — privacy-focused URL shortener" width="100%">
